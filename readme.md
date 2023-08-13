@@ -39,6 +39,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 Vous êtes prêt ! l'application tourne sur `http://localhost:5000`.
 
+![Logo de mon projet](screenshots/thunder_client.webp)
+
 ## Structure du projet
 
 La structure du projet suit une approche modulaire et maintient la base de code organisée. Voici un aperçu des répertoires principaux :
@@ -49,8 +51,7 @@ La structure du projet suit une approche modulaire et maintient la base de code 
     -   `routes` : Contient les définitions de routes pour les différents endpoints.
     -   `middlewares` : Contient des fonctions middleware personnalisées.
     -   `library` : Contient des fonctions ou modules utilitaires.
--   `dist` : Contient le code JavaScript transpilé (généré après la compilation du code TypeScript).
--   `tests` : Contient les tests de l'application.
+-   `build` : Contient le code JavaScript transpilé (généré après la compilation du code TypeScript).
 
 ## Contribution
 
